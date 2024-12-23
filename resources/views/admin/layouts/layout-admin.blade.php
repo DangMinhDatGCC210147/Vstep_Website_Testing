@@ -11,26 +11,26 @@
 
     {{-- <meta http-equiv="refresh" content="2"> --}}
     <!-- App favicon -->
-    <link rel="shortcut icon" href="{{ asset('students\assets\images\logo-white.png') }}">
+    <link rel="shortcut icon" href="{{ asset('storage\students\assets\images\logo-white.png') }}">
 
-    <link href="{{ asset('admin/assets/libs/morris.js/morris.css') }}" rel="stylesheet" type="text/css" />
-    <link href="{{ asset('admin/assets/libs/sweetalert2/sweetalert2.min.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('storage/admin/assets/libs/morris.js/morris.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('storage/admin/assets/libs/sweetalert2/sweetalert2.min.css') }}" rel="stylesheet" type="text/css" />
     <!-- App css -->
-    <link href="{{ asset('admin/assets/css/test.css') }}" rel="stylesheet" type="text/css">
-    <link href="{{ asset('admin/assets/css/style.min.css') }}" rel="stylesheet" type="text/css">
-    <link href="{{ asset('admin/assets/css/style.css') }}" rel="stylesheet" type="text/css">
-    <link href="{{ asset('admin/assets/css/icons.min.css') }}" rel="stylesheet" type="text/css">
-    <script src="{{ asset('admin/assets/js/config.js') }}"></script>
+    <link href="{{ asset('storage/admin/assets/css/test.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('storage/admin/assets/css/style.min.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('storage/admin/assets/css/style.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('storage/admin/assets/css/icons.min.css') }}" rel="stylesheet" type="text/css">
+    <script src="{{ asset('storage/admin/assets/js/config.js') }}"></script>
 
-    <link href="{{ asset('admin/assets/libs/datatables.net-bs5/css/dataTables.bootstrap5.min.css') }}" rel="stylesheet"
+    <link href="{{ asset('storage/admin/assets/libs/datatables.net-bs5/css/dataTables.bootstrap5.min.css') }}" rel="stylesheet"
         type="text/css" />
-    <link href="{{ asset('admin/assets/libs/datatables.net-responsive-bs5/css/responsive.bootstrap5.min.css') }}"
+    <link href="{{ asset('storage/admin/assets/libs/datatables.net-responsive-bs5/css/responsive.bootstrap5.min.css') }}"
         rel="stylesheet" type="text/css" />
-    <link href="{{ asset('admin/assets/libs/datatables.net-buttons-bs5/css/buttons.bootstrap5.min.css') }}"
+    <link href="{{ asset('storage/admin/assets/libs/datatables.net-buttons-bs5/css/buttons.bootstrap5.min.css') }}"
         rel="stylesheet" type="text/css" />
-    <link href="{{ asset('admin/assets/libs/datatables.net-select-bs5/css/select.bootstrap5.min.css') }}"
+    <link href="{{ asset('storage/admin/assets/libs/datatables.net-select-bs5/css/select.bootstrap5.min.css') }}"
         rel="stylesheet" type="text/css" />
-    <link href="{{ asset('admin/assets/libs/dropzone/min/dropzone.min.css" rel="stylesheet') }}" type="text/css" />
+    <link href="{{ asset('storage/admin/assets/libs/dropzone/min/dropzone.min.css" rel="stylesheet') }}" type="text/css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
 </head>
 <!-- Begin page -->
@@ -41,9 +41,9 @@
         <div class="logo-box">
             <!-- Brand Logo Light -->
             <a href="{{ route('admin.index') }}" class="logo-light">
-                <img src="{{ asset('students\assets\images\big-logo.png') }}" alt="logo" class="logo-lg"
+                <img src="{{ asset('storage\students\assets\images\big-logo.png') }}" alt="logo" class="logo-lg"
                     height="70">
-                <img src="{{ asset('students\assets\images\logo-white.png') }}" alt="small logo" class="logo-sm"
+                <img src="{{ asset('storage\students\assets\images\logo-white.png') }}" alt="small logo" class="logo-sm"
                     height="70">
             </a>
 
@@ -176,9 +176,9 @@
                     <div class="logo-box">
                         <!-- Brand Logo Light -->
                         <a href="index.html" class="logo-light">
-                            <img src="{{ asset('students\assets\images\big-logo.png') }}" alt="logo"
+                            <img src="{{ asset('storage\students\assets\images\big-logo.png') }}" alt="logo"
                                 class="logo-lg" height="70">
-                            <img src="{{ asset('students\assets\images\logo-white.png') }}" alt="small logo"
+                            <img src="{{ asset('storage\students\assets\images\logo-white.png') }}" alt="small logo"
                                 class="logo-sm" height="70">
                         </a>
                     </div>
@@ -285,49 +285,49 @@
     </div>
 
     <!-- App js -->
-    <script src="{{ asset('admin/assets/js/vendor.min.js') }}"></script>
-    <script src="{{ asset('admin/assets/js/app.js') }}"></script>
+    <script src="{{ asset('storage/admin/assets/js/vendor.min.js') }}"></script>
+    <script src="{{ asset('storage/admin/assets/js/app.js') }}"></script>
 
     <!-- Knob charts js -->
-    <script src="{{ asset('admin/assets/libs/jquery-knob/jquery.knob.min.js') }}"></script>
+    <script src="{{ asset('storage/admin/assets/libs/jquery-knob/jquery.knob.min.js') }}"></script>
 
     <!-- Sparkline Js-->
-    <script src="{{ asset('admin/assets/libs/jquery-sparkline/jquery.sparkline.min.js') }}"></script>
+    <script src="{{ asset('storage/admin/assets/libs/jquery-sparkline/jquery.sparkline.min.js') }}"></script>
 
-    <script src="{{ asset('admin/assets/libs/morris.js/morris.min.js') }}"></script>
+    <script src="{{ asset('storage/admin/assets/libs/morris.js/morris.min.js') }}"></script>
 
-    <script src="{{ asset('admin/assets/libs/raphael/raphael.min.js') }}"></script>
+    <script src="{{ asset('storage/admin/assets/libs/raphael/raphael.min.js') }}"></script>
 
     <!-- Dashboard init-->
-    <script src="{{ asset('admin/assets/js/pages/dashboard.js') }}"></script>
+    <script src="{{ asset('storage/admin/assets/js/pages/dashboard.js') }}"></script>
 
     <!-- third party js -->
-    <script src="{{ asset('admin/assets/libs/datatables.net/js/jquery.dataTables.min.js') }}"></script>
-    <script src="{{ asset('admin/assets/libs/datatables.net-bs5/js/dataTables.bootstrap5.min.js') }}"></script>
-    <script src="{{ asset('admin/assets/libs/datatables.net-responsive/js/dataTables.responsive.min.js') }}"></script>
-    <script src="{{ asset('admin/assets/libs/datatables.net-responsive-bs5/js/responsive.bootstrap5.min.js') }}"></script>
-    <script src="{{ asset('admin/assets/libs/datatables.net-buttons/js/dataTables.buttons.min.js') }}"></script>
-    <script src="{{ asset('admin/assets/libs/datatables.net-buttons-bs5/js/buttons.bootstrap5.min.js') }}"></script>
-    <script src="{{ asset('admin/assets/libs/datatables.net-buttons/js/buttons.html5.min.js') }}"></script>
-    <script src="{{ asset('admin/assets/libs/datatables.net-buttons/js/buttons.flash.min.js') }}"></script>
-    <script src="{{ asset('admin/assets/libs/datatables.net-buttons/js/buttons.print.min.js') }}"></script>
-    <script src="{{ asset('admin/assets/libs/datatables.net-keytable/js/dataTables.keyTable.min.js') }}"></script>
-    <script src="{{ asset('admin/assets/libs/datatables.net-select/js/dataTables.select.min.js') }}"></script>
-    <script src="{{ asset('admin/assets/libs/pdfmake/build/pdfmake.min.js') }}"></script>
-    <script src="{{ asset('admin/assets/libs/pdfmake/build/vfs_fonts.js') }}"></script>
+    <script src="{{ asset('storage/admin/assets/libs/datatables.net/js/jquery.dataTables.min.js') }}"></script>
+    <script src="{{ asset('storage/admin/assets/libs/datatables.net-bs5/js/dataTables.bootstrap5.min.js') }}"></script>
+    <script src="{{ asset('storage/admin/assets/libs/datatables.net-responsive/js/dataTables.responsive.min.js') }}"></script>
+    <script src="{{ asset('storage/admin/assets/libs/datatables.net-responsive-bs5/js/responsive.bootstrap5.min.js') }}"></script>
+    <script src="{{ asset('storage/admin/assets/libs/datatables.net-buttons/js/dataTables.buttons.min.js') }}"></script>
+    <script src="{{ asset('storage/admin/assets/libs/datatables.net-buttons-bs5/js/buttons.bootstrap5.min.js') }}"></script>
+    <script src="{{ asset('storage/admin/assets/libs/datatables.net-buttons/js/buttons.html5.min.js') }}"></script>
+    <script src="{{ asset('storage/admin/assets/libs/datatables.net-buttons/js/buttons.flash.min.js') }}"></script>
+    <script src="{{ asset('storage/admin/assets/libs/datatables.net-buttons/js/buttons.print.min.js') }}"></script>
+    <script src="{{ asset('storage/admin/assets/libs/datatables.net-keytable/js/dataTables.keyTable.min.js') }}"></script>
+    <script src="{{ asset('storage/admin/assets/libs/datatables.net-select/js/dataTables.select.min.js') }}"></script>
+    <script src="{{ asset('storage/admin/assets/libs/pdfmake/build/pdfmake.min.js') }}"></script>
+    <script src="{{ asset('storage/admin/assets/libs/pdfmake/build/vfs_fonts.js') }}"></script>
     <!-- third party js ends -->
     <!-- Sweet Alerts js -->
-    <script src="{{ asset('admin/assets/libs/sweetalert2/sweetalert2.all.min.js') }}"></script>
-    <script src="{{ asset('admin/assets/libs/dropzone/min/dropzone.min.js') }}"></script>
+    <script src="{{ asset('storage/admin/assets/libs/sweetalert2/sweetalert2.all.min.js') }}"></script>
+    <script src="{{ asset('storage/admin/assets/libs/dropzone/min/dropzone.min.js') }}"></script>
     <!-- Demo js-->
-    <script src="{{ asset('admin/assets/js/pages/form-fileuploads.js') }}"></script>
+    <script src="{{ asset('storage/admin/assets/js/pages/form-fileuploads.js') }}"></script>
     <!-- Chart JS -->
-    <script src="{{ asset('admin/assets/libs/chart.js/Chart.bundle.min.js') }}"></script>
+    <script src="{{ asset('storage/admin/assets/libs/chart.js/Chart.bundle.min.js') }}"></script>
     <!-- Demo js -->
-    <script src="{{ asset('admin/assets/js/pages/chartjs.js') }}"></script>
-    <script src="{{ asset('admin/assets/js/statistic.js') }}"></script>
+    <script src="{{ asset('storage/admin/assets/js/pages/chartjs.js') }}"></script>
+    <script src="{{ asset('storage/admin/assets/js/statistic.js') }}"></script>
     <!-- Datatables js -->
-    <script src="{{ asset('admin/assets/js/pages/datatables.js') }}"></script>
+    <script src="{{ asset('storage/admin/assets/js/pages/datatables.js') }}"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function() {

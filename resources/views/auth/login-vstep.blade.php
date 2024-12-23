@@ -10,10 +10,10 @@
     <meta name="author" content="Zoyothemes" />
 
     <!-- favicon -->
-    <link href="{{ asset('students/assets/images/logo-white.png') }}" rel="shortcut icon">
+    <link href="{{ asset('storage/students/assets/images/logo-white.png') }}" rel="shortcut icon">
 
     <!-- Main Css -->
-    <link href="{{ asset('students/assets2/css/style.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('storage/students/assets2/css/style.css') }}" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -23,7 +23,7 @@
         <div class="relative max-w-lg md:mx-auto mx-6 w-full flex flex-col justify-center bg-white rounded-lg p-6">
             <div class="text-start mb-7">
                 <a href="" class="grow block mb-8">
-                    <img class="h-28 mx-auto" src="{{ asset('students/assets/images/main-logo.png') }}" alt="images">
+                    <img class="h-28 mx-auto" src="{{ asset('storage/students/assets/images/main-logo.png') }}" alt="images">
                 </a>
 
                 <div class="text-center">
@@ -77,13 +77,13 @@
     <!-- =========== Main Section End =========== -->
 
     <!-- Preline Js -->
-    <script src="{{ asset('students/assets2/libs/preline/preline.js') }}"></script>
+    <script src="{{ asset('storage/students/assets2/libs/preline/preline.js') }}"></script>
 
     <!-- Lucide Js -->
-    <script src="{{ asset('students/assets2/libs/lucide/umd/lucide.min.js') }}"></script>
+    <script src="{{ asset('storage/students/assets2/libs/lucide/umd/lucide.min.js') }}"></script>
 
     <!-- Main App Js -->
-    <script src="{{ asset('students/assets2/js/app.js') }}"></script>
+    <script src="{{ asset('storage/students/assets2/js/app.js') }}"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function() {

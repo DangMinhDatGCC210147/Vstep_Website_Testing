@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="{{ asset('students\assets\images\logo-white.png') }}">
+    <link rel="shortcut icon" href="{{ asset('storage\students\assets\images\logo-white.png') }}">
     <title>Login Page</title>
-    <link rel="stylesheet" type="text/css" href="{{ asset('students/assets/css/bootstrap.min.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('students/assets/css/fontawesome-all.min.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('students/assets/css/iofrm-style.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('students/assets/css/iofrm-theme27.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('storage/students/assets/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('storage/students/assets/css/fontawesome-all.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('storage/students/assets/css/iofrm-style.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('storage/students/assets/css/iofrm-theme27.css') }}">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,10 +21,10 @@
 
 <body>
     @yield('content')
-    <script src="{{ asset('students/assets/js/jquery.min.js') }}"></script>
-    <script src="{{ asset('students/assets/js/popper.min.js') }}"></script>
-    <script src="{{ asset('students/assets/js/bootstrap.min.js') }}"></script>
-    <script src="{{ asset('students/assets/js/main.js') }}"></script>
+    <script src="{{ asset('storage/students/assets/js/jquery.min.js') }}"></script>
+    <script src="{{ asset('storage/students/assets/js/popper.min.js') }}"></script>
+    <script src="{{ asset('storage/students/assets/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('storage/students/assets/js/main.js') }}"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
